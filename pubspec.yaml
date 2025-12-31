@@ -1,0 +1,31 @@
+name: split_the_check
+description: "Splitr: Split Bills with OCR - AI-powered bill scanning and splitting app for mobile"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  image_picker: ^1.0.4
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  google_generative_ai: ^0.2.1
+  intl: ^0.19.0
+  haptic_feedback: ^0.4.0
+  share_plus: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

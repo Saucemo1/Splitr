@@ -1,0 +1,2 @@
+This directory is for app assets like images, icons, etc.
+Place your app icon and other assets here.

@@ -1,0 +1,56 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B5BFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4DD0E1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="receiptGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F7F7FB;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="180" fill="url(#bgGradient)"/>
+  
+  <!-- Receipt paper -->
+  <rect x="200" y="180" width="624" height="664" rx="24" fill="url(#receiptGradient)" filter="url(#shadow)"/>
+  
+  <!-- Receipt lines -->
+  <line x1="240" y1="280" x2="784" y2="280" stroke="#E5E1FA" stroke-width="3" stroke-linecap="round"/>
+  <line x1="240" y1="340" x2="784" y2="340" stroke="#E5E1FA" stroke-width="3" stroke-linecap="round"/>
+  <line x1="240" y1="400" x2="784" y2="400" stroke="#E5E1FA" stroke-width="3" stroke-linecap="round"/>
+  <line x1="240" y1="460" x2="784" y2="460" stroke="#E5E1FA" stroke-width="3" stroke-linecap="round"/>
+  <line x1="240" y1="520" x2="784" y2="520" stroke="#E5E1FA" stroke-width="3" stroke-linecap="round"/>
+  <line x1="240" y1="580" x2="784" y2="580" stroke="#E5E1FA" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Total line (thicker) -->
+  <line x1="240" y1="640" x2="784" y2="640" stroke="#6B5BFF" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Split icon -->
+  <g transform="translate(400, 720)">
+    <!-- Circle background -->
+    <circle cx="112" cy="112" r="100" fill="#6B5BFF" opacity="0.1"/>
+    
+    <!-- Split lines -->
+    <line x1="50" y1="50" x2="174" y2="174" stroke="#6B5BFF" stroke-width="8" stroke-linecap="round"/>
+    <line x1="174" y1="50" x2="50" y2="174" stroke="#6B5BFF" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Center dot -->
+    <circle cx="112" cy="112" r="12" fill="#6B5BFF"/>
+  </g>
+  
+  <!-- AI sparkle effects -->
+  <g opacity="0.8">
+    <circle cx="150" cy="150" r="4" fill="#FFFFFF"/>
+    <circle cx="874" cy="200" r="3" fill="#FFFFFF"/>
+    <circle cx="180" cy="300" r="2" fill="#FFFFFF"/>
+    <circle cx="844" cy="350" r="3" fill="#FFFFFF"/>
+    <circle cx="160" cy="450" r="2" fill="#FFFFFF"/>
+    <circle cx="864" cy="500" r="4" fill="#FFFFFF"/>
+  </g>
+</svg>
